@@ -1,55 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Khyati, CS undergrad and full-stack developer">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="oc-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#E6F2FF"/>
-      <stop offset="0.5" stop-color="#E7F8F2"/>
-      <stop offset="1" stop-color="#FFEAF1"/>
+      <stop offset="0.5" stop-color="#E4F7FA"/>
+      <stop offset="1" stop-color="#E9F8F3"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F0638A"/>
+    <linearGradient id="oc-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F80ED"/>
       <stop offset="1" stop-color="#1BB5A6"/>
     </linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <pattern id="oc-dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.2" fill="#1F2A44" fill-opacity="0.10"/>
     </pattern>
-    <filter id="blur" filterUnits="userSpaceOnUse" x="-300" y="-300" width="1600" height="820">
+    <filter id="oc-blur" filterUnits="userSpaceOnUse" x="-300" y="-300" width="1600" height="820">
       <feGaussianBlur stdDeviation="38"/>
     </filter>
-    <clipPath id="card">
-      <rect width="1000" height="220" rx="16"/>
-    </clipPath>
+    <clipPath id="oc-card"><rect width="1000" height="220" rx="16"/></clipPath>
   </defs>
-
-  <g clip-path="url(#card)">
-    <rect width="1000" height="220" fill="url(#bg)"/>
-
-    <!-- soft colour blobs -->
-    <g filter="url(#blur)">
-      <circle cx="900" cy="30" r="95" fill="#FF8FAB" fill-opacity="0.55"/>
+  <g clip-path="url(#oc-card)">
+    <rect width="1000" height="220" fill="url(#oc-bg)"/>
+    <g filter="url(#oc-blur)">
+      <circle cx="900" cy="30" r="95" fill="#7DB8FF" fill-opacity="0.55"/>
       <circle cx="90" cy="220" r="105" fill="#6FD6C8" fill-opacity="0.55"/>
-      <circle cx="540" cy="-10" r="85" fill="#8EC5FF" fill-opacity="0.5"/>
+      <circle cx="540" cy="-10" r="85" fill="#9CD8F5" fill-opacity="0.5"/>
     </g>
-
-    <rect width="1000" height="220" fill="url(#dots)"/>
+    <rect width="1000" height="220" fill="url(#oc-dots)"/>
   </g>
   <rect x="0.5" y="0.5" width="999" height="219" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.9"/>
-
-  <!-- window dots -->
-  <circle cx="40" cy="36" r="5" fill="#F0638A"/>
+  <circle cx="40" cy="36" r="5" fill="#2F80ED"/>
   <circle cx="60" cy="36" r="5" fill="#1BB5A6"/>
-  <circle cx="80" cy="36" r="5" fill="#8EC5FF"/>
-
-  <!-- label -->
+  <circle cx="80" cy="36" r="5" fill="#9CD8F5"/>
   <text x="110" y="78" font-family="'Courier New', Courier, monospace" font-size="16" fill="#0F9488" letter-spacing="3">// HELLO, WORLD. I AM</text>
-
-  <!-- name -->
   <text x="108" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="80" font-weight="700" fill="#1F2A44">Khyati</text>
-  <rect x="110" y="160" width="190" height="5" rx="2.5" fill="url(#accent)"/>
-
-  <!-- subtitle -->
+  <rect x="110" y="160" width="190" height="5" rx="2.5" fill="url(#oc-accent)"/>
   <text x="110" y="198" font-family="'Courier New', Courier, monospace" font-size="18" fill="#5B6B86">full-stack dev  ·  problem solver  ·  always shipping</text>
-
-  <!-- decorative code glyph -->
-  <text x="940" y="148" text-anchor="end" font-family="'Courier New', Courier, monospace" font-size="100" font-weight="700" fill="url(#accent)">&lt;/&gt;</text>
+  <text x="940" y="148" text-anchor="end" font-family="'Courier New', Courier, monospace" font-size="100" font-weight="700" fill="url(#oc-accent)">&lt;/&gt;</text>
   <text x="936" y="180" text-anchor="end" font-family="'Courier New', Courier, monospace" font-size="13" fill="#5B6B86" letter-spacing="2">NIT JAMSHEDPUR</text>
 </svg>
