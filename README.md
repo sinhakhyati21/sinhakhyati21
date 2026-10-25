@@ -44,7 +44,7 @@ mode:      learn → build → break → fix → repeat
 ## `~/stats`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sinhakhyati21&show_icons=true&hide_border=false&border_color=DCE8F5&bg_color=F8FBFF&title_color=1F6FDB&text_color=1F2A44&icon_color=1BB5A6&ring_color=2F80ED" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sinhakhyati21&show_icons=true&count_private=true&hide_border=false&border_color=DCE8F5&bg_color=F8FBFF&title_color=1F6FDB&text_color=1F2A44&icon_color=1BB5A6&ring_color=2F80ED" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sinhakhyati21&layout=compact&hide_border=false&border_color=DCE8F5&bg_color=F8FBFF&title_color=1F6FDB&text_color=1F2A44" alt="Top languages" />
   <br/>
   <img src="https://streak-stats.demolab.com?user=sinhakhyati21&hide_border=false&border=DCE8F5&background=F8FBFF&ring=1BB5A6&fire=2F80ED&currStreakLabel=1F6FDB&sideLabels=1F2A44&dates=7A869C&currStreakNum=1F2A44&sideNums=1F2A44" alt="GitHub streak" />
