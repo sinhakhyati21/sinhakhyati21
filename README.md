@@ -19,7 +19,7 @@
 name:      Khyati
 studying:  B.Tech, Computer Science @ NIT Jamshedpur
 batch:     2029
-focus:     full-stack web, DSA, ML
+focus:     full-stack web, DSA
 mode:      learn → build → break → fix → repeat
 ```
 
